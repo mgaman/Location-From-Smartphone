@@ -8,7 +8,7 @@ This method transfers the info, via Bluetooth, from the phone to the Pi as stand
 This script has 2 functions:
 1. Encodes the location data as a series of environment variables that can be used by other scripts
 2. Initialises the RPi date to the current value.
-Normally this only needs to be done once but needs repeating if changing location.
+3. Normally this only needs to be done once but needs repeating if changing location.
 ## Smartphone Side
 I have an Android phone and use the app **ShareGPS** by Jillybunch. Doubtful there a many others on both Android and iOS. Please send me feedback with with ones that work for you.
 ## Raspberry Pi without built in Bluetooth
