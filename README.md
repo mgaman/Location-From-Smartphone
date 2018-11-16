@@ -10,7 +10,7 @@ This script has 2 functions:
 2. Initialises the RPi date to the current value.
 3. Normally this only needs to be done once but needs repeating if changing location.
 ## Smartphone Side
-I have an Android phone and use the app **ShareGPS** by Jillybunch. Doubtful there a many others on both Android and iOS. Please send me feedback with with ones that work for you.
+I have an Android phone and use the app **ShareGPS** by Jillybunch. Doubtless there a many others on both Android and iOS. Please send me feedback with with ones that work for you.
 ## Raspberry Pi without built in Bluetooth
 If your RPi does not have built-in bluetooth you'll have to connect a stand alone BT to Serial device such as an HC-06 slave module and connect it to the UART pins of the RPi. When the device is paired with the phone the data will be available from the /dev/ttyS0 device.
 ## Raspberry Pi with built-in Bluetooth.
